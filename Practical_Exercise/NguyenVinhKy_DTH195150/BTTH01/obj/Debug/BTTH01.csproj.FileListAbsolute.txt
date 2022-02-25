@@ -1,0 +1,10 @@
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\obj\Debug\BTTH01.csprojAssemblyReference.cache
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\obj\Debug\BTTH01.Form1.resources
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\obj\Debug\BTTH01.Properties.Resources.resources
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\obj\Debug\BTTH01.csproj.GenerateResource.cache
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\obj\Debug\BTTH01.csproj.CoreCompileInputs.cache
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\bin\Debug\BTTH01.exe.config
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\bin\Debug\BTTH01.exe
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\bin\Debug\BTTH01.pdb
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\obj\Debug\BTTH01.exe
+E:\LapTrinhQuanLy\BaiTapThucHanh\NguyenVinhKy_DTH195150\BTTH01\obj\Debug\BTTH01.pdb

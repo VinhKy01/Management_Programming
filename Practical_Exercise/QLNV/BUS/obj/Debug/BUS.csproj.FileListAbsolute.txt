@@ -1,0 +1,11 @@
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\bin\Debug\BUS.dll
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\bin\Debug\BUS.pdb
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\bin\Debug\DAO.dll
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\bin\Debug\DTO.dll
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\bin\Debug\DAO.pdb
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\bin\Debug\DTO.pdb
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\obj\Debug\BUS.csproj.CopyComplete
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\obj\Debug\BUS.dll
+E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\obj\Debug\BUS.pdb

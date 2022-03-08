@@ -11,14 +11,12 @@ namespace DAO
 {
     public class ChucVuDAO
     {
-        static SqlConnection con;
         public static List<ChucVuDTO> LayChucVu()
         {
             string query = @"select *from chucvu";
-            con = DataProvider.MoKetNoi();
 
             //DataTable chứa dữ liệu lấy về
-            DataTable dt = DataProvider.TruyVanLayDuLieu(query, con);
+            DataTable dt = DataProvider.Instance.ExcuteQuery(query);
 
             //Không có dữ liệu
             if (dt.Rows.Count == 0)
@@ -38,5 +36,35 @@ namespace DAO
             }
             return lstChucVu;
         }
+
+        //check ma chcuc vu
+        public static bool KTraMaCV_DAO(string ma)
+        {
+            string query = "select * from chucvu where macv = @macv";
+            DataTable data = DataProvider.Instance.ExcuteQuery(query, new object[] { ma });
+            
+            return data.Rows.Count > 0;
+        }
+
+        //them chuc vu
+        public static bool ThemCV_DAO(string ma, string ten, float heso)
+        {
+            string query = "insert into chucvu values( @ma , @ten , @heso )";
+            return DataProvider.Instance.ExcuteNonQuery(query, new object[] { ma, ten, heso }) > 0;
+        }
+
+        //Xoa chuc vu
+        public static bool XoaCV_DAO(string macv)
+        {
+            string query = "delete chucvu where macv = @macv";
+            try
+            {
+                return DataProvider.Instance.ExcuteNonQuery(query, new object[] { macv }) > 0;
+            }
+            catch { };
+            return true;
+        }
+
+
     }
 }

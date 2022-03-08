@@ -7,37 +7,99 @@ using System.Data;
 using System.Data.SqlClient;
 
 namespace DAO
-{
+{            
+
     public class DataProvider
     {
-        public static SqlConnection MoKetNoi()
+        private static DataProvider instance;
+
+        public static DataProvider Instance
         {
-            string s = @"Data Source=DESKTOP-D05RLNC\SQLEXPRESS;Initial Catalog=QLNV;Integrated Security=True";
-            SqlConnection KetNoi = new SqlConnection(s);
-            KetNoi.Open();
-            return KetNoi;
+            get { if (instance == null) instance = new DataProvider(); return instance; }
         }
-        // Thực hiện truy vấn trả về bảng dữ liệu
-        public static DataTable TruyVanLayDuLieu(string query, SqlConnection KetNoi)
+
+        private DataProvider() { }
+
+        private string connectionSTR = @"Data Source=DESKTOP-D05RLNC\SQLEXPRESS;Initial Catalog=QLNV;Integrated Security=True";
+
+        public DataTable ExcuteQuery(string query, object[] parameter = null)
         {
-            SqlDataAdapter da = new SqlDataAdapter(query, KetNoi);
-            DataTable dt = new DataTable();
-            da.Fill(dt);
-            return dt;
+            DataTable data = new DataTable();
+            using (SqlConnection connection = new SqlConnection(connectionSTR))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                if (parameter != null)
+                {
+                    string[] listpara = query.Split(' ');
+                    int i = 0;
+                    foreach (string item in listpara)
+                    {
+                        if (item.Contains("@"))
+                        {
+                            command.Parameters.AddWithValue(item, parameter[i]);
+                            i++;
+                        }
+                    }
+                }
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                adapter.Fill(data);
+                connection.Close();
+            }
+            return data;
         }
-        // Thực hiện truy vấn không trả về dữ liệu
-        public static bool TruyVanKhongLayDuLieu(string query, SqlConnection  KetNoi)
+        public int ExcuteNonQuery(string query, object[] parameter = null)
         {
-            try
+            int data = 0;
+
+            using (SqlConnection connection = new SqlConnection(connectionSTR))
             {
-                SqlCommand cm = new SqlCommand(query, KetNoi);
-                cm.ExecuteNonQuery();
-                return true;
+                connection.Open();
+
+                SqlCommand command = new SqlCommand(query, connection);
+
+                if (parameter != null)
+                {
+                    string[] listpara = query.Split(' ');
+                    int i = 0;
+                    foreach (string item in listpara)
+                    {
+                        if (item.Contains("@"))
+                        {
+                            command.Parameters.AddWithValue(item, parameter[i]);
+                            i++;
+                        }
+                    }
+                }
+                data = command.ExecuteNonQuery();
+                connection.Close();
             }
-            catch (Exception)
+            return data;
+        }
+        public object ExcuteScalar(string query, object[] parameter = null)
+        {
+            object data = 0;
+
+            using (SqlConnection connection = new SqlConnection(connectionSTR))
             {
-                return false;
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                if (parameter != null)
+                {
+                    string[] listpara = query.Split(' ');
+                    int i = 0;
+                    foreach (string item in listpara)
+                    {
+                        if (item.Contains("@"))
+                        {
+                            command.Parameters.AddWithValue(item, parameter[i]);
+                        }
+                    }
+                }
+                data = command.ExecuteScalar();
+                connection.Close();
             }
+            return data;
         }
     }
 }

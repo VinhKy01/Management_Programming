@@ -9,3 +9,14 @@ E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\obj\Debug\BUS.csproj.CoreCompileInp
 E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\obj\Debug\BUS.csproj.CopyComplete
 E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\obj\Debug\BUS.dll
 E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\BUS\obj\Debug\BUS.pdb
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\bin\Debug\BUS.dll
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\bin\Debug\BUS.pdb
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\bin\Debug\DAO.dll
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\bin\Debug\DTO.dll
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\bin\Debug\DAO.pdb
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\bin\Debug\DTO.pdb
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\obj\Debug\BUS.dll
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\BUS\obj\Debug\BUS.pdb

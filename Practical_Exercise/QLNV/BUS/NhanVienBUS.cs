@@ -14,5 +14,33 @@ namespace BUS
         {
             return NhanVienDAO.LayDanhSachNhanVien();
         } 
+
+        public static bool ThemNhanVien_BUS(string manv, string holot, string ten, string macv, string gioitinh, string ngaysinh)
+        {
+            if (DAO.NhanVienDAO.KTraMaNV_DAO(manv))
+            {
+                return false;
+            }
+            else
+            {
+                NhanVienDAO.ThemNhanVien_DAO(manv, holot, ten, macv, gioitinh, ngaysinh);
+                return true;
+            }
+            
+        }
+
+        public static bool xoaNhanVien_BUS(string manv)
+        {
+            if (!NhanVienDAO.KTraMaNV_DAO(manv))
+            {
+                return false;
+            }
+            else
+            {
+                NhanVienDAO.XoaNV_DAO(manv);
+                return true;
+            }
+
+        }
     }
 }

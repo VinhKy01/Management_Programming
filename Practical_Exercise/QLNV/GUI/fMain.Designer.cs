@@ -30,14 +30,14 @@
         {
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.chươngTrìnhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.danhMụcToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mniChucVu = new System.Windows.Forms.ToolStripMenuItem();
+            this.mniNhanVien = new System.Windows.Forms.ToolStripMenuItem();
             this.nghiệpVụToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.giúpĐởToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.mniChucVu = new System.Windows.Forms.ToolStripMenuItem();
-            this.mniNhanVien = new System.Windows.Forms.ToolStripMenuItem();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -55,11 +55,6 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // chươngTrìnhToolStripMenuItem
             // 
             this.chươngTrìnhToolStripMenuItem.Name = "chươngTrìnhToolStripMenuItem";
@@ -74,6 +69,20 @@
             this.danhMụcToolStripMenuItem.Name = "danhMụcToolStripMenuItem";
             this.danhMụcToolStripMenuItem.Size = new System.Drawing.Size(74, 20);
             this.danhMụcToolStripMenuItem.Text = "Danh mục";
+            // 
+            // mniChucVu
+            // 
+            this.mniChucVu.Name = "mniChucVu";
+            this.mniChucVu.Size = new System.Drawing.Size(180, 22);
+            this.mniChucVu.Text = "Chức vụ";
+            this.mniChucVu.Click += new System.EventHandler(this.mniChucVu_Click);
+            // 
+            // mniNhanVien
+            // 
+            this.mniNhanVien.Name = "mniNhanVien";
+            this.mniNhanVien.Size = new System.Drawing.Size(180, 22);
+            this.mniNhanVien.Text = "Nhân viên";
+            this.mniNhanVien.Click += new System.EventHandler(this.mniNhanVien_Click);
             // 
             // nghiệpVụToolStripMenuItem
             // 
@@ -93,25 +102,16 @@
             this.giúpĐởToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.giúpĐởToolStripMenuItem.Text = "Giúp đỡ";
             // 
-            // mniChucVu
+            // contextMenuStrip1
             // 
-            this.mniChucVu.Name = "mniChucVu";
-            this.mniChucVu.Size = new System.Drawing.Size(180, 22);
-            this.mniChucVu.Text = "Chức vụ";
-            this.mniChucVu.Click += new System.EventHandler(this.mniChucVu_Click);
-            // 
-            // mniNhanVien
-            // 
-            this.mniNhanVien.Name = "mniNhanVien";
-            this.mniNhanVien.Size = new System.Drawing.Size(180, 22);
-            this.mniNhanVien.Text = "Nhân viên";
-            this.mniNhanVien.Click += new System.EventHandler(this.mniNhanVien_Click);
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // fMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(763, 362);
+            this.ClientSize = new System.Drawing.Size(763, 401);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;

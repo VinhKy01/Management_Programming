@@ -17,3 +17,22 @@ E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\GUI\obj\Debug\GUI.exe
 E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\GUI\obj\Debug\GUI.pdb
 E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\GUI\bin\Debug\DAO.dll
 E:\Lap_Trinh_Quan_Ly\BaiTapThucHanh\QLNV\GUI\bin\Debug\DAO.pdb
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\bin\Debug\GUI.exe.config
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\bin\Debug\GUI.exe
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\bin\Debug\GUI.pdb
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\bin\Debug\BUS.dll
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\bin\Debug\DAO.dll
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\bin\Debug\DTO.dll
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\bin\Debug\BUS.pdb
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\bin\Debug\DAO.pdb
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\bin\Debug\DTO.pdb
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.fChucVu.resources
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.fMain.resources
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.fNhanVien.resources
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.Properties.Resources.resources
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.exe
+C:\Users\infov\OneDrive\Máy tính\Management_Programming\Practical_Exercise\QLNV\GUI\obj\Debug\GUI.pdb
